@@ -1,0 +1,156 @@
+body{
+    height: 90vh;
+}
+#flick {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.322);
+    width: 100%;
+    z-index: 2;
+    height: 60px;
+}
+.wall {
+    position: relative;
+    left: -80px;
+}
+#watch {
+    width: 80px;
+}
+.group {
+    transform: translateX(30px);
+}
+#bolu {
+    border: none;
+    width: 700px;
+}
+#log {
+    padding-left: 80px;
+} 
+.sweet {
+    position: relative;
+    top: -50px;
+}
+#sky {
+    height: 635px;
+}
+.girl {
+    position: absolute;
+    bottom: 200px;
+    left: 30%;
+    color: white;
+    z-index: 100;
+    text-align: center;
+}
+.girl h1 {
+    font-size: 60px;
+}
+#free {
+    margin-right: 65px;
+}
+.power {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    /* margin-top: 20px; */
+    transform: translate(-80px,5px);
+}
+.power:hover {
+    text-decoration: underline;
+    color: white;
+}
+footer {
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: space-between; */
+    height: 10vh;
+    transform: translateY(-50px);
+    background-color: black;
+}
+footer a {
+    text-decoration: none;
+    color: grey;
+}
+footer a:hover {
+    color: white;
+}
+.chair {
+    background-image: url("Images/background.jpg");
+        background-size: cover;
+        margin-top: -25px !important;
+ }
+#lap {
+        width: 27%;
+}
+.form-control {
+    border: 1px solid !important;
+}
+.norm {
+    position: fixed;
+    bottom: 15px;
+    right: 25px;
+    color: white;
+}
+#data {
+    padding-left: 480px;
+}
+#help {
+    margin-left: 94px;
+} 
+.logo {
+    height: 587px;
+    width: 100%;
+    position: relative;
+}
+#next {
+    color: white;
+    background-color: #128fdc;
+    margin: 30px 25px 25px 25px;
+    width: 86%;
+}
+.dami {
+    margin-left: 160px;
+    margin-top: 20px;
+}
+#two a li {
+    color: white;
+}
+#four {
+    position: absolute;
+    bottom: 130px;
+    left: 500px;
+}
+.sign {
+    position: absolute;
+    width: 25%;
+    height: 280px;
+    background-color: white;
+    transform: translate(500px,-450px);
+    border-radius: 5px;
+}
+.henry {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 80%;
+}
+.phone {
+    padding: 10px;
+}
+#two {
+    margin-left: 110px;
+}
+.rug {
+    transform: translate(150px,20px);
+}
+.smug {
+    margin-left: 20px;  
+}
+#nine {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+
+
