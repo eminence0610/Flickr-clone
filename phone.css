@@ -1,67 +1,57 @@
-@media (max-width:736px) {
+@media screen and  (max-width :478px) {
+
     .group {
-        margin-top: -30px;
-        margin-left: 220px;
+     display: none;
     }
-    #watch {
-        transform: translateX(-95px);
+    #global {
+        display: none;
+    }
+    #login{
+        transform: translateY(20px);
     }
     .find {
         transform: translateX(-55px);
+    }
+    #nine a {
+        border-bottom: 1px solid rgb(69,64,64);
+        width: 100%;
+    }
+    #data {
+        transform: translateX(-450px);
+    } 
+    .sweet{
+        width: 100%;
+    }
+    .connect {
+        display: block;
+        color: grey;
+    }
+    #help a li {
+        color: black;
+    }
+    .blog{
+        border-bottom: 1px solid grey;
+        padding: 10px 0px 10px 5px;
+    }
+    #blog{
+
+        padding: 10px 0px 10px 5px; 
     }
     #free {
   
         transform: translateX(-50px);
         font-size: 10px;
     }
-    #flick {
-        position: fixed;
-         width: 100%;
-         top: 0;
-         z-index: 2;
-    }
     #bolu {
-        display: none;
-    }
-    #global {
         display: none;
     }
     #home {
         display: none;
     }
-    #sky {
-        max-width: 100%;
-        height: 810px;
-    }
     #login {
         margin-top: -90px;
         border: 1px solid white;
-     
         margin-left: 200px;
-    }
-    #nine {
-        display: flex;
-        flex-direction: column;
-        background-color: black;
-        justify-content: space-between;
-        height: 50vh;
-        margin-left: -300px;
-    }
-    #nine a {
-        border-bottom: 1px solid white;
-        width: 390%;
-    }
-    footer {
-        display: flex;
-        flex-direction: column;
-        background-color: black;
-        align-items: center;
-        justify-content: space-between;
-        height: 50vh;
-    
-    }
-    .navbar {
-        width: 170%;
     }
     #next {
         font-size: 30px;
@@ -70,8 +60,15 @@
         display: flex;
         height: 30px;
     }
-    
-    .member {
+    #flick {
+        position: fixed;
+         top: 0;
+         z-index: 2;
+         background-color: rgba(0, 0, 0, 0.322);
+         width: 100%;
+         height: 60px;
+     }
+     .member {
         font-size: 25px;
     }
     .cat {
@@ -84,6 +81,9 @@
         position: relative;
         display: none;
     
+    }
+    .mug{
+       padding: 30px 100px 0px;
     }
     .port {
         display: flex;
@@ -101,6 +101,10 @@
     }
     .loyal {
         font-size: 30px;
+    }
+    .svg{
+        padding: 10px 80px 40px;
+        color: grey;
     }
     #four {
         bottom: -490px;
@@ -154,7 +158,7 @@
         margin: 0px !important;
      }
      #temi {
-        width: 100%;
+        max-width: 100%;
      }
      .good {
         padding: 0px !important;
@@ -176,20 +180,5 @@
     
 
     } 
-    #nine a {
-        border-bottom: 1px solid rgb(69,64,64);
-        width: 100%;
     }
-    #data {
-        transform: translateX(-450px);
-    } 
-    .connect {
-        display: block;
-    }
-    #help a li {
-        color: black;
-    }
-    
 
-    
-}

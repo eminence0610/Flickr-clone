@@ -12,24 +12,22 @@
 </head>
 
 <body>
-    <header class="p-3" id="flick">
-        <div class="container ">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <div class="wall">
-                    <img src="Images/flick.svg" alt="" width="100px" id="watch">
-                </div>
-                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 d-flex " role="search">
-                    <img src="Images/search.svg" alt="" width="30px" height="30px" class="group">
-                    <input type="text" class="form-control px-5" placeholder="Photo peoples, or group" id="bolu">
-                </form>
-
-                <div class="text-end" id="log">
-                    <a href="login.html"><button type="button" class="btn text-light me-2" id="login">Log
-                            In</button></a>
-                    <a href="sign.html"><button type="button" class="btn bg-white text-black"
-                            id="global">Sign-up</button></a>
-                </div>
+    <header class="p-3 w-100" id="flick" >
+        <div class="container-fluid d-lg-flex d-sm-flex">
+            <div class="col-lg-3">
+                <img src="Images/flick.svg" alt="" width="100px" id="watch">
             </div>
+            <form class="col-lg-7" role="search">
+                <input type="text" class="form-control ps-5" placeholder="Photo peoples, or group" id="bolu">
+                <img src="Images/search.svg" alt="" width="30px" height="30px" class="group">
+            </form>
+            <div class="col-lg-2" id="log">
+                <a href="login.html"><button type="button" class="btn text-light me-2" id="login">Log
+                        In</button></a>
+                <a href="sign.html"><button type="button" class="btn bg-white text-black"
+                        id="global">Sign-up</button></a>
+            </div>
+        </div>
         </div>
     </header>
     <div class="sweet">
@@ -155,75 +153,52 @@
         <button class="btn btn-light mt-5 p-3 fs-3" id="free"><b>Start for free</b></button>
     </div>
     <footer>
-        <div class="container-fluild">
-            <div class="row">
-                <div>
-                    <a href="" class="ps-3 mt-2">About</a>
-                    <a href="" class="ps-3 mt-2">Jobs</a>
-                    <a href="" class="ps-3 mt-2">Blog</a>
-                    <a href="" class="ps-3 mt-2">Advertise</a>
-                    <a href="" class="ps-3 mt-2">Developers</a>
-                    <a href="" class="ps-3 mt-2">Guidelines</a>
-                    <a href="" class="ps-3 mt-2">Help</a>
-                    <a href="" class="ps-3 mt-2">Help forum</a>
-                    <a href="" class="ps-3 mt-2">Privacy</a>
-                    <a href="" class="ps-3 mt-2">Terms</a>
-                    <a href="" class="px-3 mt-2">Cookies</a>
+        <div class="container-fluid bg-black">
+            <div class="row col-lg-12 pt-lg-3 ps-lg-4 ">
+                <div class=" d-flex flex-lg-row flex-column guide ">
+                    <a href="" class="ps-lg-4 fw-semibold blog">About</a>
+                    <a href="" class="ps-lg-4 fw-semibold blog">Jobs</a>
+                    <a href="" class="ps-lg-4 fw-semibold blog">Blog</a>
+                    <a href="" class="ps-lg-4 fw-semibold blog">Advertise</a>
+                    <a href="" class="ps-lg-4 fw-semibold blog">Developers</a>
+                    <a href="" class="ps-lg-4 fw-semibold blog">Guidelines</a>
+                    <a href="" class="ps-lg-4 fw-semibold blog">Help</a>
+                    <a href="" class="ps-lg-4 fw-semibold blog">Help forum</a>
+                    <a href="" class="ps-lg-4 fw-semibold blog">Privacy</a>
+                    <a href="" class="ps-lg-4 fw-semibold blog">Terms</a>
+                    <a href="" class="ps-lg-4 fw-semibold blog">Cookies</a>
+                    <div class="dropup-center dropup blog">
+                        <a class="dropdown-toggle ps-lg-4 fw-semibold " data-bs-toggle="dropdown"
+                            aria-expanded="false" id="blog">English</a>
+                        <ul class="dropdown-menu z-100" id="dropDownContent">
+                            <li><a class="dropdown-item" href="#">繁體中文</a></li>
+                            <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                            <li><a class="dropdown-item" href="#">Español</a></li>
+                            <li><a class="dropdown-item" href="#">Français</a></li>
+                            <li><a class="dropdown-item" href="#">한글</a></li>
+                            <li><a class="dropdown-item" href="#">Italiano</a></li>
+                            <li><a class="dropdown-item" href="#">Português</a></li>
+                            <li><a class="dropdown-item" href="#">Tiếng Việt</a></li>
+                            <li><a class="dropdown-item" href="#">Bahasa Indonesia</a></li>
+                        </ul>
+                    </div>
+                    <!-- <hr> -->
+                    <div class="col d-flex flex-lg-row flex-column ">
+                        <div class=" d-flex ps-lg-4 ps-sm-0 mug ">
+                            <a href="">SmugMug</a> + <a href="">Flickr.</a>
+                        </div>
+                        <p class="connect text-center">connecting people through photography</p>
+                        <div class=" d-lg-flex d-sm-flex svg ">
+                            <a href=""><img class="ps-4" src="Images/svgexport-7.svg" alt=""></a>
+                            <a href=""><img class="ps-4" src="Images/svgexport-8.svg" alt=""></a>
+                            <a href=""><img class="ps-4" src="Images/svgexport-9.svg" alt=""></a>
+                        </div>
 
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id="nine">
-              
-                <a href="" data-bs-toggle="dropdown" aria-expanded="false">English <img src="Images/down.png" alt="">
-            </div>
-            <div class="dropup">
-                    <ul class="dropdown-menu z-100">
-                        <a href="#" class="text-decoration-none text-dark">
-                            <li>繁體中文</li>
-                        </a>
-                        <a href="#">
-                            <li>Deutsch</li>
-                        </a>
-                        <a href="#">
-                            <li>Español</li>
-                        </a>
-                        <a href="">
-                            <li>Français</li>
-                        </a>
-                        <a href="">
-                            <li>한글</li>
-                        </a>
-                        <a href="">
-                            <li>Italiano</li>
-                        </a>
-                        <a href="">
-                            <li>Português</li>
-                        </a>
-                        <a href="">
-                            <li>Tiếng Việt</li>
-                        </a>
-                        <a href="">
-                            <li>Bahasa Indonesia</li>
-                        </a>
-                    </ul>
-
-            </div>
-            <div class="cat">
-                    <a href="" class="">SmugMug</a> + <a href="">Flickr.</a> 
-            </div>
-            <p class="connect">connecting people through photography</p>
-             
-              
-            <div class="port ">
-                    <a href=""><img src="Images/svgexport-7.svg" alt="" id="ope"></a>
-                    <a href=""><img class="twitt" src="Images/svgexport-8.svg" alt="" id="ope"></a>
-                    <a href=""><img src="Images/svgexport-9.svg" alt="" id="ope"></a>
-
-            </div>
-        </div>
     </footer>
- </a>
+    </a>
 
 
 
