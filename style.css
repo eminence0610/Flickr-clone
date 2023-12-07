@@ -8,6 +8,9 @@ body{
     z-index: 2;
     height: 60px;
 }
+#blog{
+    color: white;
+}
 
 #watch {
     width: 80px;
@@ -73,6 +76,13 @@ footer a {
 footer a:hover {
     color: white;
 }
+.dropup-center a{
+    color: grey;
+}
+.blog a :hover{
+    color: white;
+}
+
 .chair {
     background-image: url("Images/background.jpg");
         background-size: cover;
@@ -90,11 +100,16 @@ footer a:hover {
     right: 25px;
     color: white;
 }
+.privacy{
+    color: white;
+}
 #data {
     padding-left: 480px;
 }
 #help {
-    margin-left: 94px;
+    margin-left: 85px;
+    /* margin-top: 10px; */
+
 } 
 .logo {
     height: 587px;
@@ -117,7 +132,7 @@ footer a:hover {
 #four {
     position: absolute;
     bottom: 130px;
-    left: 500px;
+    left: 475px;
 }
 .sign {
     position: absolute;
