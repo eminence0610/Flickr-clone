@@ -4,7 +4,6 @@ body{
 #flick {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.322);
-    /* width: 100%; */
     z-index: 2;
     height: 60px;
 }
@@ -53,7 +52,6 @@ body{
     color: white;
     text-decoration: none;
     position: absolute;
-    /* margin-top: 20px; */
     transform: translate(-80px,5px);
 
 }
@@ -62,9 +60,7 @@ body{
     color: white;
 }
 footer {
-    /* display: flex; */
     align-items: center;
-    /* justify-content: space-between; */
     height: 10vh;
     transform: translateY(-50px);
     background-color: black;
@@ -82,6 +78,11 @@ footer a:hover {
 .blog a :hover{
     color: white;
 }
+input:focus{
+    box-shadow: none !important;
+    border: none;
+}
+
 
 .chair {
     background-image: url("Images/background.jpg");
@@ -104,15 +105,14 @@ footer a:hover {
     color: white;
 }
 #data {
-    padding-left: 480px;
+    padding-left: 465px;
+    margin-top: -15px;
 }
 #help {
-    margin-left: 85px;
-    /* margin-top: 10px; */
-
+    margin-left: 95px;
 } 
 .logo {
-    height: 587px;
+    height: 578px;
     width: 100%;
     position: relative;
 }
@@ -131,7 +131,7 @@ footer a:hover {
 }
 #four {
     position: absolute;
-    bottom: 130px;
+    bottom: 128px;
     left: 475px;
 }
 .sign {
